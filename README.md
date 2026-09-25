@@ -106,5 +106,3 @@ No `.pbix` file is included, since Power BI Desktop wasn't available in the deve
 ## 👤 Author
 Sita Bharatula 
 
-
-_Add your name / contact / LinkedIn here._
