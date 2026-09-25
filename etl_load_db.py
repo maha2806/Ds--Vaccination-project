@@ -27,13 +27,13 @@ conn.commit()
 print("Schema created.")
 
 # ---------- Load cleaned data -------------------------------------------------
-cov_country = pd.read_csv(f"{DATA_DIR}/coverage_country.csv")
-cov_region  = pd.read_csv(f"{DATA_DIR}/coverage_region.csv")
-cov_global  = pd.read_csv(f"{DATA_DIR}/coverage_global.csv")
-inc         = pd.read_csv(f"{DATA_DIR}/incidence.csv")
-cases       = pd.read_csv(f"{DATA_DIR}/cases.csv")
-intro       = pd.read_csv(f"{DATA_DIR}/intro.csv")
-sched       = pd.read_csv(f"{DATA_DIR}/schedule.csv")
+cov_country = pd.read_csv(f"coverage_country.csv")
+cov_region  = pd.read_csv(f"coverage_region.csv")
+cov_global  = pd.read_csv(f"coverage_global.csv")
+inc         = pd.read_csv(f"incidence.csv")
+cases       = pd.read_csv(f"cases.csv")
+intro       = pd.read_csv(f"intro.csv")
+sched       = pd.read_csv(f"schedule.csv")
 
 def to_int_year(s):
     return pd.to_numeric(s, errors="coerce").astype("Int64")
