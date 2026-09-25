@@ -58,7 +58,7 @@ Five WHO/UNICEF tables (raw `.xlsx` files, cleaned during ETL):
 
 ## 🧱 Data Model
 
-A star schema normalizes the raw exports into 5 dimension tables (`dim_country`, `dim_year`, `dim_antigen`, `dim_disease`, `dim_vaccine`) and 7 fact tables (`fact_coverage`, `fact_coverage_region`, `fact_coverage_global`, `fact_incidence`, `fact_cases`, `fact_vaccine_intro`, `fact_schedule`). Full DDL in [`sql/schema.sql`](sql/schema.sql).
+A star schema normalizes the raw exports into 5 dimension tables (`dim_country`, `dim_year`, `dim_antigen`, `dim_disease`, `dim_vaccine`) and 7 fact tables (`fact_coverage`, `fact_coverage_region`, `fact_coverage_global`, `fact_incidence`, `fact_cases`, `fact_vaccine_intro`, `fact_schedule`). Full DDL in [`schema.sql`](schema.sql).
 
 ---
 
@@ -104,5 +104,7 @@ No `.pbix` file is included, since Power BI Desktop wasn't available in the deve
 ---
 
 ## 👤 Author
+Sita Bharatula 
+
 
 _Add your name / contact / LinkedIn here._
